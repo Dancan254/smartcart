@@ -21,7 +21,7 @@ spring:
   ai:
     ollama:
       embedding:
-        model: nomic-text-embed
+        model: nomic-embed-text
       chat:
         model: llama3.2
 
