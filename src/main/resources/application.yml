@@ -1,1 +1,33 @@
-spring.application.name=smartcart
+spring:
+  application:
+    name: spring-ai-ecommerce
+
+  datasource:
+    url: jdbc:h2:mem:ecommerce
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: password
+
+  h2:
+    console:
+      enabled: true
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+
+  ai:
+    ollama:
+      embedding:
+        model: nomic-text-embed
+      chat:
+        model: llama3.2
+
+server:
+  port: 8082
+
+logging:
+  level:
+    org.springframework.ai: DEBUG
