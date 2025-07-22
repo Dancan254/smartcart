@@ -1,5 +1,7 @@
-package com.javaguy.smartcart;
+package com.javaguy.smartcart.service;
 
+import com.javaguy.smartcart.entity.Product;
+import com.javaguy.smartcart.repository.ProductRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.ai.ollama.OllamaChatModel;

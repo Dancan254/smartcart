@@ -1,5 +1,7 @@
-package com.javaguy.smartcart;
+package com.javaguy.smartcart.controller;
 
+import com.javaguy.smartcart.entity.Customer;
+import com.javaguy.smartcart.repository.CustomerRepository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;

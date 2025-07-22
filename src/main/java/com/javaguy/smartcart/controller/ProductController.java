@@ -1,6 +1,10 @@
-package com.javaguy.smartcart;
+package com.javaguy.smartcart.controller;
 
 
+import com.javaguy.smartcart.entity.Product;
+import com.javaguy.smartcart.repository.ProductRepository;
+import com.javaguy.smartcart.service.AIRecommendationService;
+import com.javaguy.smartcart.service.AISearchService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;

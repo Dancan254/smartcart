@@ -1,5 +1,9 @@
 package com.javaguy.smartcart;
 
+import com.javaguy.smartcart.entity.Customer;
+import com.javaguy.smartcart.entity.Product;
+import com.javaguy.smartcart.repository.CustomerRepository;
+import com.javaguy.smartcart.repository.ProductRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 import java.math.BigDecimal;

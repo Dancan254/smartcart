@@ -1,4 +1,4 @@
-package com.javaguy.smartcart;
+package com.javaguy.smartcart.entity;
 
 import jakarta.persistence.*;
 

@@ -1,5 +1,6 @@
-package com.javaguy.smartcart;
+package com.javaguy.smartcart.repository;
 
+import com.javaguy.smartcart.entity.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
