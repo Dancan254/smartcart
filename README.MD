@@ -173,7 +173,7 @@ The application comes pre-loaded with sample data:
 ## 🧪 Testing the AI Features
 
 ### Testing Recommendations
-1. Use Customer ID 1 (John Doe - prefers Electronics, Books)
+1. Use Customer ID 1 (John Doe - prefers Electronics, Books )
 2. Call `/api/products/recommendations/1`
 3. Observe how AI suggests related products
 
